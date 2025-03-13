@@ -1,0 +1,7 @@
+:root{
+    /*tema claro*/
+    --bg-color: #ffffff;
+    --text-color: hsl(0, 0%, 100%);
+    --navbar-bg: hwb(0 0% 0%);
+    --card-bg: hwb(0 0% 0%);
+    --footer-br: hsl(0, 0%, 0%);
