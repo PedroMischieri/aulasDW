@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR" <head>
+<title>DarkMode</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/color.css">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="navbar">
+        <div class="logo">Logo Legal</div>
+        <ul>
+            <li><a href='#'>Inicio</a></li>
+            <li><a href='#'>Sobre</a></li>
+            <li><a href='#'>Contato</a></li>
+        </ul>
+        <div onclick="toggleDarkMode()" class="dark-mode-toggle">Dark Mode</div>
+    </nav>
+    <!--seçao de cards-->
+    <section class="cards">
+        <div class="card">
+            <h3>card 1 </h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt porro architecto enim sapiente eius
+                reiciendis libero! Adipisci explicabo dicta doloremque deserunt nam possimus. Corrupti reprehenderit
+                dignissimos quia tempore doloremque? Sint.
+            </p>
+        </div> <!--fim card 1-->
+    </section>
+    <section class="cards">
+        <div class="card">
+            <h3>card 1</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt porro architecto enim sapiente eius
+                reiciendis libero! Adipisci explicabo dicta doloremque deserunt nam possimus. Corrupti reprehenderit
+                dignissimos quia tempore doloremque? Sint.
+            </p>
+
+        </div> <!--fim card 2-->
+    </section>
+    <section class="cards">
+        <div class="card">
+            <h3>card 1</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt porro architecto enim sapiente eius
+                reiciendis libero! Adipisci explicabo dicta doloremque deserunt nam possimus. Corrupti reprehenderit
+                dignissimos quia tempore doloremque? Sint.
+            </p>
+
+        </div> <!--fim card 3-->
+    </section>
+    <footer>
+        <p>Ronan Zenatti - 2025</p>
+    </footer>
+    <script src="js/script.js"></script>
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+        }
+    </script>
+</body>
